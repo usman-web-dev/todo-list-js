@@ -1,0 +1,21 @@
+.container {
+  padding: 60px 40px;
+}
+
+.wrapper input {
+  width: 100%;
+  height: 30px;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid rgb(9, 171, 141);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 18px;
+  font-style: oblique;
+  word-spacing: 2px;
+}
+
+.wrapper input:focus {
+  border: 2px solid rgb(17, 202, 168);
+  outline: 2px solid rgb(18, 243, 202);
+}
