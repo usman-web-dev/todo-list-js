@@ -4,11 +4,12 @@
 
 .wrapper {
   display: flex;
-  justify-content: center;
+  column-gap: 10px;
+  width: 100%;
 }
 
 .wrapper input {
-  width: 80%;
+  flex-grow: 1;
   height: 30px;
   padding: 5px 10px;
   outline: none;
@@ -18,7 +19,6 @@
   font-size: 18px;
   font-style: oblique;
   word-spacing: 2px;
-  margin-right: 10px;
 }
 
 .wrapper input:focus {
@@ -27,7 +27,6 @@
 }
 
 .wrapper button {
-  width: 10%;
   padding: 5px;
   outline: none;
   font-size: 15px;
