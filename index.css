@@ -48,8 +48,13 @@
   color: #034a46;
 }
 
-.wrapper button:hover {
+.wrapper button:hover:not(.wrapper button:disabled) {
   background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
   color: #006863;
   outline: 1px solid #2fa69e;
+}
+
+.wrapper button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
 }
